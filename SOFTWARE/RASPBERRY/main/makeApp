@@ -1,0 +1,11 @@
+CFLAGS=-c -Wall -O2
+LIBS = -lm -llcd1602 -lpthread -lwiringPi -lmodDI -lmodAn -llogsGen -lmodPr -lzabbix
+
+all: appMain
+
+appMain: main.o
+	$(CC) main.o $(LIBS) -o appMain ;\
+	rm *.o
+
+main.o: main.c
+	$(CC) $(CFLAGS) main.c
