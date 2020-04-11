@@ -1,2 +1,2 @@
 # carok
-An automation of the car
+An automation of a car
