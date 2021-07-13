@@ -307,11 +307,11 @@ FUNCAO PRINCIPAL (MAIN)
 ********************************************************/
 int main(int argc, char *argv[]){
 	printf("****************************************************************************\n");
-	char sz[] = "\n              MONITORAMENTO 'COLOQUE O NOME DO ATIVO MONITORADO AQUI'\n";
+	char sz[] = "\n              Caroknator - O carro mais nice do mundo'\n";
 	printf(sz);
 	printf("\n****************************************************************************\n");
 
-	char local[100] = "/home/pi/projetos/generico";	// Pasta para os logs
+	char local[100] = "/home/pi/caroknator/";	// Pasta para os logs
 
 	unsigned int nSamples = 0;	// Numero de samples no total
 	int numErrors = 0;		// Numero de erros por segundo

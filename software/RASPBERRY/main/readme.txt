@@ -1,10 +1,7 @@
 /***************************************************************************
 
-CODIGO PARA USO GERAL NO AQUISINATOR, COM PROCESSADOR BASEADO EM SISTEMA LINUX
+CODIGO QUE CONTROLA O CAROKNATOR, FEITO PARA SISTEMA LINUX
 
-COMPANHIA DO METROPOLITANO DE SAO PAULO
-
-METRO - GMT/NMA
 
 Author: Alexandre Mascarenhas
 ***************************************************************************/
