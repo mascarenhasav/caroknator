@@ -1,0 +1,134 @@
+%classe do documento
+\documentclass[12pt]{abntex2}
+
+%pacote de linguas
+\usepackage[utf8]{inputenc}
+
+
+
+%comandos relacionados a classe
+\autor{Alexandre Victor Santos Mascarenhas}% introduz nome do autor
+\titulo{Controle de motor elétrico através de dispositivo móvel}
+\data{2021}
+\local{São Paulo, São Paulo} 
+
+ 
+\preambulo{Trabalho de conclusão de curso para obtenção do título de bacharel em Engenharia Elétrica pela Universidade Cruzeiro do Sul}
+\orientador{nao sei quem}
+\tipotrabalho{Monografia} 
+
+
+
+%Inicio do corpo do texto
+\begin{document}
+\imprimircapa
+\imprimirfolhaderosto
+
+\begin{folhadeaprovacao} 
+\begin{center}  
+{\ABNTEXchapterfont\large\textsc{\imprimirautor}}
+
+{\ABNTEXchapterfont\Large\bfseries{\imprimirtitulo}} 
+\end{center} 
+\vspace{1cm}
+\hspace{.45\textwidth} 
+\begin{minipage}
+{.5\textwidth}\imprimirpreambulo
+\end{minipage}
+
+\vspace{1cm}
+Trabalho aprovado. \imprimirlocal, \imprimirdata
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Assinaturas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\assinatura{\imprimirorientador \\Universidade Cruzeiro do Sul}
+\assinatura{nao sei quem 2\\ Universidade Cruzeiro do Sul}
+\assinatura{nao sei quem 3 \\ Universidade Cruzeiro do Sul} 
+
+\begin{center}
+\vfill
+{\large\imprimirlocal}
+\par
+{\large\imprimirdata}
+\end{center}
+\end{folhadeaprovacao}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Fim da folha de aprovação
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Início da dedicatória - Elemento opcional
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{dedicatoria}
+\vspace*{\fill}
+Este trabalho é dedicado a geral
+\vspace*{\fill}
+\end{dedicatoria}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fim da dedicatória
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{agradecimentos}
+Valew rapa
+\end{agradecimentos}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Início da epígrafe - opcional
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{epigrafe}
+\vspace*{\fill}
+\begin{flushright}
+\textit{``Há aqueles que já nascem póstumos''\\ (Friedrich Wilhelm Nietzsche )}
+\end{flushright}
+\end{epigrafe}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fim da epígrafe - opcional
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Início do resumo - obrigatório 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{resumo} 
+aeee
+\vspace{\onelineskip} 
+\noindent
+
+\textbf{Palavras-chave}:  
+\end{resumo} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Fim do resumo - obrigatório 
+%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Início do abstract - obrigatório 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{resumo}[Abstract] 
+\begin{otherlanguage*}{english}
+aeeee
+\vspace{\onelineskip} 
+\noindent 
+
+\textbf{Keywords}: 
+\end{otherlanguage*} 
+\end{resumo} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Fim do abstract - obrigatório 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{siglas} 
+\item[UNICSUL] Universidade Cruzeiro do Sul 
+\end{siglas}
+
+\listoffigures
+
+\listoftables 
+
+\tableofcontents* % imprime sumário
+
+\chapter{Introdução}
+
+aeee
+
+\end{document}
